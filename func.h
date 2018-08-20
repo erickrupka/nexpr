@@ -1,0 +1,17 @@
+extern void	define_macro();
+extern void 	show_macro();
+extern void 	next_code();
+extern int	macro_running();
+extern char	*code_to_run();
+extern void	run_macro();
+extern void	clear_macro();
+extern char	*name_macro_running();
+extern int	macro_exists();
+extern void	free_stack();
+extern int	more_stack();
+extern void	debug();
+extern void	clear_macros();
+extern void	save_macro();
+extern int	code_is_running();
+extern char	*code_running();
+extern void	pop_stack(void);

@@ -1,0 +1,13 @@
+extern int	var_exists();
+extern void	declare();
+extern int 	assign();
+extern int	get_val();
+extern void	show_vars();
+extern void	show_used_vars();
+extern int	var_assigned();
+extern void	clear_used_vars();
+extern void	clear_vars();
+extern int	update_vars();
+extern int	reset_vars();
+extern int 	delete_var();
+extern void	save_var();
